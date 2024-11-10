@@ -69,7 +69,7 @@
   <ItemGroup>
     <Content Include="BAG.html" />
     <Content Include="Css.css" />
-    <Content Include="Home.html" />
+    <Content Include="index.html" />
     <Content Include="Img\background1.jpg" />
     <Content Include="Img\background2.jpg" />
     <Content Include="Img\brandone1.png" />
