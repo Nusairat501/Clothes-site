@@ -1,0 +1,196 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    background-image: url(Img/background2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* ----------------------------------------------------------------------------------Header--------------------------------------------------------- */
+.header {
+    background-size: cover;
+    background-position: center;
+ 
+
+ 
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index:100;
+}
+.logo{
+    color:whitesmoke;
+    font-size:40px;
+    margin-left:50px;
+}
+span{
+    color:#b40707;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 18px;
+    font-size: 25px;
+    border:thin;
+   
+}
+    nav ul li a {
+        color: whitesmoke;
+        text-decoration: none;
+        font-weight: bold;
+       
+       
+    }
+    nav ul li a:hover {
+        color: #b40707;
+        transition:.3s;
+        border:ridge ;
+        border-radius:10px 4px;
+        border-width:4px;
+    }
+
+.right a {
+    color: #b40707;
+    font-size: 20px;
+    
+}
+.right a i{ 
+    font-size:25px;
+    color:whitesmoke;
+}
+/* ----------------------------------------------------------------------------------Main--------------------------------------------- */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 45px;
+    color: #646464;
+}
+.title {
+    margin-top:40px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    border: solid;
+    border-radius: 15px 15px;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-block-start-style: hidden;
+    border-block-width:3px 3px;
+    padding:4px 4px 4px 4px;
+   
+}
+
+.subtitle {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color:whitesmoke;
+}
+
+.description {
+    font-size: 18px;
+    color: #646464;
+    margin-bottom: 30px;
+}
+
+.clothing-images {
+    display: flex;
+    gap: 20px; /* space between imgs */
+    flex-wrap: wrap; /* تصغير الصوره لما نصغر الصفحه */
+    justify-content: center; 
+}
+
+    .clothing-images img {
+        width: 200px;
+        height:350px;
+        border-radius: 25px 25px; 
+        transition: transform 0.3s ease; 
+    }
+
+        .clothing-images img:hover {
+            transform: scale(1.05);
+        }
+/* ----------------------------------------------------Footer----------------------------------------------------------------------*/
+.footer {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    color:whitesmoke;
+    padding:30px;
+    text-align: center;
+}
+    .footer h3 {
+        color: #b40707;
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        padding:0px 60px;
+    }
+
+    .footer ul {
+        list-style: none;
+ 
+    }
+            .footer ul li a {
+                color:whitesmoke;
+                text-decoration: none;
+                transition: color 0.3s;
+            }
+                .footer ul li a:hover {
+                    color: #b40707;
+                    transition: .3s;
+                    border: ridge;
+                    border-radius: 10px 4px;
+                    border-width: 4px;
+                }
+.branches ul li a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+.follow ul li a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+.bootom-bar {
+    background-color: #2d2d2d;
+    padding: 0px 0px 20px;
+    color: #cccccc;
+    font-size: 14px;
+    text-align: center;
+}
+.bag h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding-top:100px;
+    text-align: center;
+    padding-bottom:310px;
+}
+.emen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 110px;
+    color: #b40707;
+}
+
+
+
